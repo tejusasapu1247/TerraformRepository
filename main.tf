@@ -12,7 +12,7 @@ provider "aws" {
 }
 resource "aws_instance" "app_server" {
  instance_type = "t2.micro"
- ami = "ami-0851b76e8b1bce90b"
+ ami = "ami-08ee6644906ff4d6c"
 tags = {
  Name = "MyVPC"
  }
