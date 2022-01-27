@@ -8,11 +8,11 @@ terraform {
  required_version = ">= 0.14.9"
 }
 provider "aws" {
- profile ="default"
+profile = "default"
 region = "us-west-1"
 }
 resource "aws_instance" "app_server" {
- ami = "ami-a1b2c3d4"
+ ami = "ami-00399ec92321828f5"
  instance_type = "t2.micro"
  tags = {
  Name = "MyVPC"
